@@ -1,0 +1,36 @@
+{
+  "name": "rectify",
+  "homepage": "http://dev-soumyadeep.github.io/Portfolio-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@next/font": "^13.1.6",
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.10.0",
+    "gh-pages": "^5.0.0",
+    "moment": "^2.29.4",
+    "next": "^12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-use-downloader": "^1.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}

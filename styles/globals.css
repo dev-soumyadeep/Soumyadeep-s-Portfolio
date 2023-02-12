@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+}
+@font-face {
+  font-family: "MontserratAlternates-Bold";
+  src: url("../public/MontserratAlternates-Bold.otf");
+}
+@font-face {
+  font-family: "MontserratAlternates-Extrabold";
+  src: url("../public/MontserratAlternates-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-Medium";
+  src: url("../public/MontserratAlternates-Medium.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-Extralight";
+  src: url("../public/MontserratAlternates-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Aboreto-Regular";
+  src: url("../public/Aboreto-Regular.ttf");
+}
