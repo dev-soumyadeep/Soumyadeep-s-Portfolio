@@ -133,11 +133,11 @@
     display: flex;
     justify-content: center;
 }
-.form-box{
+/* .form-box{
  font-size: 10px;
  width: 310px;
    
-}
+} */
 .input-box{
     width: 300px;
     padding: 0;
